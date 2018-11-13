@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/neelan-veloo/pen/jQyxXR.
-
- I got the evening off and I decided to rebuild my personal page. Will probably be adding some things to it, but I will try to keep it as clean as possible.
+Just a personal website I made for people to reach out to me.
