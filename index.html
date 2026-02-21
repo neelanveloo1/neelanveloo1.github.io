@@ -150,7 +150,7 @@
     background:none;
     padding:.25rem .5rem;
   }
-  .audio-toggle:hover{color:#1a1a1a}
+  .audio-toggle:hover{color:#1a1a1a;text-decoration:underline;text-underline-offset:3px}
   .audio-controls{
     display:none;
     margin-top:.75rem;
@@ -206,7 +206,7 @@
   <div class="addressed">Addressed to the People of the Connected World</div>
   <div class="date">February 2026</div>
   <div class="audio-player">
-    <button class="audio-toggle" onclick="togglePlayer()" aria-label="Listen to this essay">Listen to this essay</button>
+    <button class="audio-toggle" onclick="togglePlayer()" aria-label="Listen to this essay"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;margin-right:5px"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>Listen to this essay</button>
     <div class="audio-controls" id="audioControls">
       <div class="lang-btns">
         <button class="lang-btn active" id="btnEn" onclick="switchLang('en')">English</button>
