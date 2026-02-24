@@ -152,20 +152,24 @@
   }
   .audio-toggle:hover{color:#1a1a1a;text-decoration:underline;text-underline-offset:3px}
   .dl-tamil{
-    display:inline-block;
-    margin-top:1rem;
+    position:fixed;
+    top:1.2rem;
+    right:1.5rem;
     font-family:Georgia,"Times New Roman",Times,serif;
-    font-size:.8rem;
+    font-size:.75rem;
     letter-spacing:.02em;
-    color:#666;
+    color:#aaa;
     background:none;
-    border:1px solid #ccc;
-    padding:.3rem .9rem;
+    border:none;
+    padding:0;
     cursor:pointer;
     text-decoration:none;
-    transition:all .2s;
+    transition:color .2s;
+    z-index:10;
   }
-  .dl-tamil:hover{color:#1a1a1a;border-color:#999}
+  .dl-tamil:hover{color:#1a1a1a}
+  .dl-tamil svg{opacity:.5;transition:opacity .2s}
+  .dl-tamil:hover svg{opacity:1}
   .audio-controls{
     display:none;
     margin-top:.75rem;
@@ -211,6 +215,7 @@
 </style>
 </head>
 <body>
+<a class="dl-tamil" href="common_sense_tamil.pdf" download><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>தமிழ்</a>
 <article class="container">
 
 <header>
@@ -232,7 +237,6 @@
       </audio>
     </div>
   </div>
-  <a class="dl-tamil" href="common_sense_tamil.pdf" download><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;margin-right:4px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>தமிழ் PDF</a>
 </header>
 
 <h2>Introduction</h2>
